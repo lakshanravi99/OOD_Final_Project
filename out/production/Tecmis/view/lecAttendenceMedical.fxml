@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="659.0" prefWidth="745.0" style="-fx-background-color: #3c40c6;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="controller.LecAttendenceMedicalController">
+   <children>
+      <Label layoutX="50.0" layoutY="64.0" prefHeight="32.0" prefWidth="229.0" text="Attendence" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <TableView fx:id="attendence" layoutX="147.0" layoutY="125.0" prefHeight="486.0" prefWidth="451.0">
+        <columns>
+          <TableColumn fx:id="stdid" prefWidth="75.0" text="STUDENT ID" />
+          <TableColumn fx:id="cid" prefWidth="75.0" text="COURSE ID" />
+            <TableColumn fx:id="date" prefWidth="75.0" text="DATE" />
+            <TableColumn fx:id="TYPE" prefWidth="75.0" text="TYPE" />
+            <TableColumn fx:id="STATUS" prefWidth="75.0" text="STATUS" />
+            <TableColumn fx:id="HOURS" prefWidth="75.0" text="HOURS" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

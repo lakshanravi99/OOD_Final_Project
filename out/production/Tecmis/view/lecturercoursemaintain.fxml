@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="612.0" prefWidth="714.0" style="-fx-background-color: #3c40c6;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LecturercoursemaintainController">
+   <children>
+      <Label layoutX="23.0" layoutY="14.0" prefHeight="71.0" prefWidth="124.0" text="Course Maintain" textFill="WHITE" />
+      <TableView fx:id="tablecourse" layoutX="341.0" layoutY="103.0" onMouseClicked="#tablecourseOnMouseClicked" prefHeight="396.0" prefWidth="440.0">
+        <columns>
+          <TableColumn fx:id="idcol" prefWidth="75.0" text="Course ID" />
+          <TableColumn fx:id="namecol" prefWidth="75.0" text="NAME" />
+            <TableColumn fx:id="tcol" prefWidth="75.0" text="THEORY" />
+            <TableColumn fx:id="pcol" prefWidth="75.0" text="PRACTICAL" />
+            <TableColumn fx:id="lecidcol" prefWidth="75.0" text="LEC ID" />
+            <TableColumn fx:id="depidcol" prefWidth="75.0" text="DEP ID" />
+        </columns>
+      </TableView>
+      <Label layoutX="36.0" layoutY="176.0" prefHeight="39.0" prefWidth="97.0" text="Name" textFill="WHITE" />
+      <JFXTextField fx:id="idbox" layoutX="178.0" layoutY="138.0" style="-fx-background-color: white;" />
+      <JFXTextField fx:id="namebox" layoutX="178.0" layoutY="183.0" style="-fx-background-color: white;" />
+      <JFXButton fx:id="deletebtn" layoutX="216.0" layoutY="427.0" onMouseClicked="#deleteRecord" text="DELETE" />
+      <JFXButton fx:id="updatebtn" layoutX="131.0" layoutY="427.0" onMouseClicked="#updateRecord" text="UPDATE" />
+      <JFXButton fx:id="insertbtn" layoutX="56.0" layoutY="427.0" onMouseClicked="#insertRecord" text="INSERT" textFill="#101c01" />
+      <Label layoutX="36.0" layoutY="138.0" prefHeight="39.0" prefWidth="106.0" text="COURSE ID" textFill="WHITE" />
+      <Label layoutX="36.0" layoutY="214.0" prefHeight="39.0" prefWidth="132.0" text="THEORY" textFill="WHITE" />
+      <JFXTextField fx:id="tbox" layoutX="178.0" layoutY="221.0" style="-fx-background-color: white;" />
+      <Label layoutX="36.0" layoutY="300.0" prefHeight="39.0" prefWidth="97.0" text="LEC ID" textFill="WHITE" />
+      <JFXTextField fx:id="lecidbox" layoutX="178.0" layoutY="307.0" style="-fx-background-color: white;" />
+      <ImageView fitHeight="39.0" fitWidth="98.0" layoutX="723.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/windows-minimize-icon-24.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="61.0" layoutX="48.0" layoutY="506.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/back.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="34.0" layoutY="353.0" prefHeight="39.0" prefWidth="97.0" text="DEP ID" textFill="WHITE" />
+      <JFXTextField fx:id="depidbox" layoutX="176.0" layoutY="360.0" style="-fx-background-color: white;" />
+      <Label layoutX="36.0" layoutY="260.0" prefHeight="39.0" prefWidth="132.0" text="PRACTICAL" textFill="WHITE" />
+      <JFXTextField fx:id="pbox" layoutX="178.0" layoutY="267.0" style="-fx-background-color: white;" />
+   </children>
+</AnchorPane>

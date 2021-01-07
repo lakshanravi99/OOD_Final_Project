@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" onMouseClicked="#updateRecord" prefHeight="676.0" prefWidth="1066.0" style="-fx-background-color: #1e272e;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LecturerprofileController">
+   <children>
+      <Label layoutX="80.0" layoutY="102.0" prefHeight="98.0" prefWidth="187.0" text="Lecturer" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="211.0" prefHeight="31.0" prefWidth="139.0" text="ID" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="260.0" prefHeight="31.0" prefWidth="139.0" text="Username" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="363.0" prefHeight="31.0" prefWidth="139.0" text="Contact" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="420.0" prefHeight="31.0" prefWidth="139.0" text="Gender" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="lecid" focusColor="#023be8" labelFloat="true" layoutX="249.0" layoutY="206.0" prefHeight="30.0" prefWidth="301.0" style="colo: #ECF0F1;" text="Lec1" unFocusColor="#b92626">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="username" focusColor="#023be8" labelFloat="true" layoutX="249.0" layoutY="255.0" prefHeight="30.0" prefWidth="301.0" style="colo: #ECF0F1;" text="Lecturer" unFocusColor="#b92626">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="lecno" focusColor="#023be8" labelFloat="true" layoutX="249.0" layoutY="358.0" prefHeight="30.0" prefWidth="301.0" style="colo: #ECF0F1;" text="119" unFocusColor="#b92626">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="lecgender" focusColor="#023be8" labelFloat="true" layoutX="249.0" layoutY="416.0" prefHeight="30.0" prefWidth="301.0" style="colo: #ECF0F1;" text="lec1.tecfac@gmail.com" unFocusColor="#b92626">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXTextField>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="851.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/unnamed.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="61.0" layoutX="512.0" layoutY="607.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/poweroff.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="54.0" layoutY="489.0" prefHeight="38.0" prefWidth="163.0" text="Date of Birth" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="lecdob" focusColor="#023be8" labelFloat="true" layoutX="249.0" layoutY="484.0" prefHeight="30.0" prefWidth="301.0" style="colo: #ECF0F1;" text="1920.10.5" unFocusColor="#b92626">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXTextField>
+      <ImageView fitHeight="56.0" fitWidth="61.0" layoutX="33.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/back.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="52.0" layoutY="544.0" prefHeight="38.0" prefWidth="163.0" text="Password" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="lecpass" focusColor="#023be8" labelFloat="true" layoutX="247.0" layoutY="539.0" prefHeight="30.0" prefWidth="301.0" style="colo: #ECF0F1;" text="pass" unFocusColor="#b92626">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="updateRecord" layoutX="174.0" layoutY="614.0" onMouseClicked="#updateRecord" style="-fx-background-color: white;" text="UPDATE" textFill="#d70000" />
+      <Label layoutX="50.0" layoutY="306.0" prefHeight="31.0" prefWidth="139.0" text="Name" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="lecname" focusColor="#023be8" labelFloat="true" layoutX="245.0" layoutY="301.0" prefHeight="30.0" prefWidth="301.0" style="colo: #ECF0F1;" text="Lecturer" unFocusColor="#b92626">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXTextField>
+   </children>
+</AnchorPane>

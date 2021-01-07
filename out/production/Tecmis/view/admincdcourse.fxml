@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="574.0" prefWidth="798.0" style="-fx-background-color: #1e272e;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdmincdcourseController">
+   <children>
+      <Label layoutX="47.0" layoutY="26.0" prefHeight="39.0" prefWidth="97.0" text="Courses" textFill="WHITE" />
+      <Label layoutX="26.0" layoutY="166.0" prefHeight="39.0" prefWidth="97.0" text="Name" textFill="WHITE" />
+      <JFXTextField fx:id="idbox" layoutX="168.0" layoutY="128.0" style="-fx-background-color: white;" />
+      <JFXTextField fx:id="namebox" layoutX="168.0" layoutY="173.0" style="-fx-background-color: white;" />
+      <JFXButton fx:id="deletebtn" layoutX="206.0" layoutY="417.0" text="DELETE" textFill="#f00000" />
+      <JFXButton fx:id="updatebtn" layoutX="121.0" layoutY="417.0" text="UPDATE" textFill="#f00000" />
+      <JFXButton fx:id="insertbtn" layoutX="46.0" layoutY="417.0" onMouseClicked="#insertRecord" text="INSERT" textFill="#f00000" />
+      <Label layoutX="26.0" layoutY="128.0" prefHeight="39.0" prefWidth="106.0" text="COURSE ID" textFill="WHITE" />
+      <Label layoutX="26.0" layoutY="204.0" prefHeight="39.0" prefWidth="132.0" text="THEORY" textFill="WHITE" />
+      <JFXTextField fx:id="tbox" layoutX="168.0" layoutY="211.0" style="-fx-background-color: white;" />
+      <Label layoutX="26.0" layoutY="290.0" prefHeight="39.0" prefWidth="97.0" text="LEC ID" textFill="WHITE" />
+      <JFXTextField fx:id="lecidbox" layoutX="168.0" layoutY="297.0" style="-fx-background-color: white;" />
+      <Label layoutX="24.0" layoutY="343.0" prefHeight="39.0" prefWidth="97.0" text="DEP ID" textFill="WHITE" />
+      <JFXTextField fx:id="depidbox" layoutX="166.0" layoutY="350.0" style="-fx-background-color: white;" />
+      <Label layoutX="26.0" layoutY="250.0" prefHeight="39.0" prefWidth="132.0" text="PRACTICAL" textFill="WHITE" />
+      <JFXTextField fx:id="pbox" layoutX="168.0" layoutY="257.0" style="-fx-background-color: white;" />
+   </children>
+</AnchorPane>

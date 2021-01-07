@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" onMouseClicked="#showmarks" prefHeight="676.0" prefWidth="1066.0" style="-fx-background-color: #3c40c6;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LectureScreenController">
+   <children>
+      <Label layoutX="422.0" layoutY="141.0" text="Lecturer Board" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold Italic" size="37.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="121.0" fitWidth="134.0" layoutX="483.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../lecture.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="893.0" layoutY="616.0" onMouseClicked="#logoutbtn" prefHeight="46.0" prefWidth="134.0" style="-fx-background-color: #f53b57; -fx-background-radius: 30;" text="Logout" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <Pane fx:id="pane_1" layoutX="58.0" layoutY="273.0" onMouseEntered="#mouse_hover_1" onMouseExited="#mouse_exit_1" prefHeight="181.0" prefWidth="180.0">
+         <children>
+            <ImageView fx:id="lecturerprofile" fitHeight="103.0" fitWidth="107.0" layoutX="39.0" layoutY="14.0" onMouseClicked="#lecturerprofile" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../users.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="33.0" layoutY="127.0" text="User Profiles" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="pane_2" layoutX="263.0" layoutY="274.0" onMouseEntered="#mouse_hover_2" onMouseExited="#mouse_exit_2" prefHeight="181.0" prefWidth="180.0">
+         <children>
+            <ImageView fx:id="lecturecourse" fitHeight="111.0" fitWidth="115.0" layoutX="39.0" layoutY="6.0" onMouseClicked="#lecturecourse" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../courses.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="19.0" layoutY="128.0" text="Course Modules" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="pane_3" layoutX="475.0" layoutY="268.0" onMouseClicked="#showNotice" onMouseEntered="#mouse_hover_3" onMouseExited="#mouse_exit_3" prefHeight="181.0" prefWidth="180.0">
+         <children>
+            <ImageView fx:id="showNotice" fitHeight="87.0" fitWidth="85.0" layoutX="39.0" layoutY="20.0" onMouseClicked="#showNotice" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Notice.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="56.0" layoutY="129.0" text="Notices" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="pane_4" layoutX="673.0" layoutY="268.0" onMouseClicked="#studentDetails" onMouseEntered="#mouse_hover_4" onMouseExited="#mouse_exit_4" prefHeight="181.0" prefWidth="180.0">
+         <children>
+            <ImageView fitHeight="93.0" fitWidth="101.0" layoutX="39.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../student.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="25.0" layoutY="129.0" text="Student Details" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="pane_5" layoutX="847.0" layoutY="269.0" onMouseEntered="#mouse_hover_5" onMouseExited="#mouse_exit_5" prefHeight="181.0" prefWidth="180.0">
+         <children>
+            <ImageView fx:id="showmarks" fitHeight="93.0" fitWidth="103.0" layoutX="39.0" layoutY="14.0" onMouseClicked="#showmarks" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../exam.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="36.0" layoutY="128.0" text="Exam Marks" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <JFXButton fx:id="uploadbtn" layoutX="906.0" layoutY="455.0" onMouseClicked="#upload" text="UPLOAD" textFill="WHITE" />
+      <JFXButton fx:id="uploadbtn1" layoutX="719.0" layoutY="455.0" onMouseClicked="#showattendence" text="ATTENDENCE" textFill="WHITE" />
+   </children>
+</AnchorPane>
