@@ -16,6 +16,5 @@ public class AppInitializer extends Application {
         primaryStage.setScene(new Scene(FXMLLoader.load(this.getClass().getResource("view/LoginScreen.fxml"))));
         primaryStage.show();
         //Fro test
-        primaryStage.setTitle("Tecmis");
     }
 }
