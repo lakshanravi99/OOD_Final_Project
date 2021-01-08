@@ -15,5 +15,7 @@ public class AppInitializer extends Application {
     public void start(Stage primaryStage) throws IOException {
         primaryStage.setScene(new Scene(FXMLLoader.load(this.getClass().getResource("view/LoginScreen.fxml"))));
         primaryStage.show();
+        //Fro test
+        primaryStage.setTitle("Tecmis");
     }
 }
