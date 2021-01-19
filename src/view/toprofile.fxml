@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="676.0" prefWidth="1066.0" style="-fx-background-color: #1e272e;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ToProfileController">
+   <children>
+      <Label layoutX="220.0" layoutY="90.0" prefHeight="98.0" prefWidth="359.0" text="Technical Officer" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="248.0" prefHeight="31.0" prefWidth="139.0" text="ID" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="307.0" prefHeight="31.0" prefWidth="139.0" text="F Name" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="414.0" prefHeight="31.0" prefWidth="139.0" text="Contact" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="471.0" prefHeight="31.0" prefWidth="139.0" text="Gender" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="toid" focusColor="#023be8" labelFloat="true" layoutX="249.0" layoutY="243.0" prefHeight="30.0" prefWidth="301.0" style="colo: #ECF0F1;" unFocusColor="#b92626">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="toname" focusColor="#023be8" labelFloat="true" layoutX="249.0" layoutY="302.0" prefHeight="30.0" prefWidth="301.0" style="colo: #ECF0F1;" unFocusColor="#b92626">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="tocontact" focusColor="#023be8" labelFloat="true" layoutX="249.0" layoutY="409.0" prefHeight="30.0" prefWidth="301.0" style="colo: #ECF0F1;" unFocusColor="#b92626">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="togender" focusColor="#023be8" labelFloat="true" layoutX="249.0" layoutY="445.0" prefHeight="30.0" prefWidth="301.0" style="colo: #ECF0F1;" unFocusColor="#b92626">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXTextField>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="780.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/unnamed.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="30.0" layoutX="1011.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/poweroff.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="54.0" layoutY="519.0" prefHeight="38.0" prefWidth="163.0" text="Date of Birth" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="todob" focusColor="#023be8" labelFloat="true" layoutX="249.0" layoutY="503.0" prefHeight="30.0" prefWidth="301.0" style="colo: #ECF0F1;" unFocusColor="#b92626">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXTextField>
+      <ImageView fitHeight="56.0" fitWidth="61.0" layoutX="33.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/back.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="update" layoutX="340.0" layoutY="636.0" onMouseClicked="#updatebtn" style="-fx-background-color: white;" text="UPDATE" textFill="#dd0000" />
+      <Label layoutX="56.0" layoutY="362.0" prefHeight="31.0" prefWidth="139.0" text="L Name" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="tolname" focusColor="#023be8" labelFloat="true" layoutX="251.0" layoutY="357.0" prefHeight="30.0" prefWidth="301.0" style="colo: #ECF0F1;" unFocusColor="#b92626">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="password" focusColor="#023be8" labelFloat="true" layoutX="251.0" layoutY="557.0" prefHeight="30.0" prefWidth="301.0" style="colo: #ECF0F1;" unFocusColor="#b92626">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="54.0" layoutY="562.0" prefHeight="38.0" prefWidth="163.0" text="Password" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

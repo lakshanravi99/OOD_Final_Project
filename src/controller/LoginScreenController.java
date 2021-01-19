@@ -122,7 +122,7 @@ public class LoginScreenController {
             Parent root = null;
 
             try {
-                root = FXMLLoader.load(getClass().getResource("tecofficerScreen.fxml"));
+                root = FXMLLoader.load(getClass().getResource("../view/tecofficerScreen.fxml"));
             } catch (IOException ex) {
                 Logger.getLogger(LoginScreenController.class.getName()).log(Level.SEVERE, null, ex);
             }

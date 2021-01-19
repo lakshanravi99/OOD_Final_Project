@@ -161,7 +161,7 @@ public class TecofficerScreenController implements Initializable {
     private void attendence(MouseEvent event) {
         
          try {
-            Parent load = FXMLLoader.load(this.getClass().getResource("/interface2/tecofficerattendence.fxml"));
+            Parent load = FXMLLoader.load(this.getClass().getResource("../view/TecOfficerAttendence.fxml"));
             Stage stage = new Stage();
             stage.setScene(new Scene(load));
             stage.show();
@@ -176,7 +176,7 @@ public class TecofficerScreenController implements Initializable {
     private void notice(MouseEvent event) {
         
         try {
-            Parent load = FXMLLoader.load(this.getClass().getResource("/interface2/tecofficernotice.fxml"));
+            Parent load = FXMLLoader.load(this.getClass().getResource("../view/tecofficernotice.fxml"));
             Stage stage = new Stage();
             stage.setScene(new Scene(load));
             stage.show();
@@ -189,7 +189,7 @@ public class TecofficerScreenController implements Initializable {
     @FXML
     private void timetable(MouseEvent event) {
          try {
-            Parent load = FXMLLoader.load(this.getClass().getResource("/interface2/tectimetable.fxml"));
+            Parent load = FXMLLoader.load(this.getClass().getResource("../view/tectimetable.fxml"));
             Stage stage = new Stage();
             stage.setScene(new Scene(load));
             stage.show();
