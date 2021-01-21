@@ -147,7 +147,7 @@ public class TecofficerScreenController implements Initializable {
     @FXML
     private void showprofile(MouseEvent event) {
         try {
-            Parent load = FXMLLoader.load(this.getClass().getResource("/interface2/toprofile.fxml"));
+            Parent load = FXMLLoader.load(this.getClass().getResource("../view/toprofile.fxml"));
             Stage stage = new Stage();
             stage.setScene(new Scene(load));
             stage.show();
@@ -203,7 +203,7 @@ public class TecofficerScreenController implements Initializable {
     @FXML
     private void showmedical(MouseEvent event) {
        try {
-            Parent load = FXMLLoader.load(this.getClass().getResource("/interface2/toMedical.fxml"));
+            Parent load = FXMLLoader.load(this.getClass().getResource("../view/toMedical.fxml"));
             Stage stage = new Stage();
             stage.setScene(new Scene(load));
             stage.show();

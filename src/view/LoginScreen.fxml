@@ -20,7 +20,7 @@
          </children>
       </Pane>
       <Pane layoutY="514.0" prefHeight="102.0" prefWidth="796.0" style="-fx-background-color: #2ecc71;" />
-      <JFXTextField fx:id="username" focusColor="#27ae60" labelFloat="true" layoutX="273.0" layoutY="328.0" prefHeight="30.0" prefWidth="250.0" promptText="USERNAME" text="lecture" unFocusColor="#ec1111">
+      <JFXTextField fx:id="username" focusColor="#27ae60" labelFloat="true" layoutX="273.0" layoutY="328.0" prefHeight="30.0" prefWidth="250.0" promptText="USERNAME" text="student" unFocusColor="#ec1111">
          <font>
             <Font size="13.0" />
          </font></JFXTextField>
@@ -32,7 +32,7 @@
          <font>
             <Font name="System Bold" size="13.0" />
          </font></JFXButton>
-      <JFXPasswordField fx:id="password" focusColor="#27ae60" labelFloat="true" layoutX="273.0" layoutY="394.0" prefHeight="30.0" prefWidth="250.0" promptText="PASSWORD" text="lec123" unFocusColor="#ec1111">
+      <JFXPasswordField fx:id="password" focusColor="#27ae60" labelFloat="true" layoutX="273.0" layoutY="394.0" prefHeight="30.0" prefWidth="250.0" promptText="PASSWORD" text="student123" unFocusColor="#ec1111">
          <font>
             <Font size="13.0" />
          </font>

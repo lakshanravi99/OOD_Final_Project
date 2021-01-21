@@ -3,6 +3,7 @@ package controller;
 
 import com.jfoenix.controls.JFXPasswordField;
 import com.jfoenix.controls.JFXTextField;
+import comman.User;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -20,7 +21,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
-public class LoginScreenController {
+public class LoginScreenController extends User {
 
     @FXML
     private JFXTextField username;
@@ -61,6 +62,7 @@ public class LoginScreenController {
             Parent root = null;
 
             try {
+                setId("");
                 root = FXMLLoader.load(getClass().getResource("../view/adminScreen.fxml"));
             } catch (IOException ex) {
                 Logger.getLogger(LoginScreenController.class.getName()).log(Level.SEVERE, null, ex);
@@ -102,7 +104,7 @@ public class LoginScreenController {
             Parent root = null;
 
             try {
-                root = FXMLLoader.load(getClass().getResource("studentScreen.fxml"));
+                root = FXMLLoader.load(getClass().getResource("../view/studentScreen.fxml"));
             } catch (IOException ex) {
                 Logger.getLogger(LoginScreenController.class.getName()).log(Level.SEVERE, null, ex);
             }

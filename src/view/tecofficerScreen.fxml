@@ -21,7 +21,7 @@
                   <Font name="System Bold" size="20.0" />
                </font>
             </JFXButton>
-            <Pane fx:id="pane_1" layoutX="68.0" layoutY="283.0" onMouseEntered="#mouse_hover_1" onMouseExited="#mouse_exit_1" prefHeight="181.0" prefWidth="180.0">
+            <Pane fx:id="pane_1" layoutX="68.0" layoutY="283.0" onMouseClicked="#showprofile" onMouseEntered="#mouse_hover_1" onMouseExited="#mouse_exit_1" prefHeight="181.0" prefWidth="180.0">
                <children>
                   <Label layoutX="33.0" layoutY="127.0" text="User Profiles" textFill="WHITE">
                      <font>
@@ -48,7 +48,7 @@
                   </Label>
                </children>
             </Pane>
-            <Pane fx:id="pane_4" layoutX="683.0" layoutY="278.0" onMouseEntered="#mouse_hover_4" onMouseExited="#mouse_exit_4" prefHeight="181.0" prefWidth="180.0">
+            <Pane fx:id="pane_4" layoutX="683.0" layoutY="278.0" onMouseClicked="#showmedical" onMouseEntered="#mouse_hover_4" onMouseExited="#mouse_exit_4" prefHeight="181.0" prefWidth="180.0">
                <children>
                   <Label layoutX="52.0" layoutY="128.0" text="Medical" textFill="WHITE">
                      <font>

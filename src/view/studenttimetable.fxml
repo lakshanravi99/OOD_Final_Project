@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="482.0" prefWidth="746.0" style="-fx-background-color: #82589F;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.StudenttimetableController">
+   <children>
+      <Label layoutX="59.0" layoutY="61.0" text="Time Table" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <TableView fx:id="timetabl" layoutX="59.0" layoutY="134.0" prefHeight="318.0" prefWidth="630.0">
+        <columns>
+          <TableColumn fx:id="timecol" prefWidth="111.20001602172852" text="Time" />
+          <TableColumn fx:id="moncol" prefWidth="80.79998779296875" text="Monday" />
+            <TableColumn fx:id="tucol" prefWidth="113.59996032714844" text="Tuesday" />
+            <TableColumn fx:id="wedcol" prefWidth="104.0" text="Wednesday" />
+            <TableColumn fx:id="thucol" prefWidth="100.800048828125" text="Thursday" />
+            <TableColumn fx:id="fricol" prefWidth="153.59991455078125" text="Friday" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

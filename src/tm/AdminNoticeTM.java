@@ -5,12 +5,8 @@
  */
 package tm;
 
-/**
- *
- * @author ACER
- */
-public class AdminNoticeTM {
-    
+public class AdminNoticeTM extends Object{
+
     private String id;
     private String date;
     private String notice;
@@ -45,7 +41,6 @@ public class AdminNoticeTM {
     public void setNotice(String notice) {
         this.notice = notice;
     }
-
 
     @Override
     public String toString() {
