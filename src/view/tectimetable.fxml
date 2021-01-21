@@ -13,7 +13,7 @@
             <Font size="33.0" />
          </font>
       </Label>
-      <TableView fx:id="timetbl" layoutX="56.0" layoutY="122.0" onMouseClicked="#TimeTableshow" prefHeight="392.0" prefWidth="626.0">
+      <TableView fx:id="timetbl" layoutX="56.0" layoutY="122.0" prefHeight="392.0" prefWidth="626.0">
         <columns>
           <TableColumn fx:id="timecol" prefWidth="81.0" text="Time" />
           <TableColumn fx:id="moncol" prefWidth="104.0" text="Monday" />
