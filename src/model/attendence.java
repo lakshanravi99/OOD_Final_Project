@@ -1,8 +1,8 @@
-package entity;
+package model;
 
 import java.sql.Date;
 
-public class attendence {
+public class attendence implements SuperEntity{
     private String std_id;
     private String course_id;
     private Date date;

@@ -1,6 +1,6 @@
-package entity;
+package model;
 
-public class student {
+public class student implements SuperEntity{
     private String std_id;
     private String f_name;
     private String l_name;

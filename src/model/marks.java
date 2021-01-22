@@ -1,6 +1,6 @@
-package entity;
+package model;
 
-public class marks {
+public class marks implements SuperEntity{
     private String std_id;
     private String couse_id;
     private int mid_p;

@@ -1,6 +1,6 @@
-package entity;
+package model;
 
-public class icttimetable {
+public class icttimetable implements SuperEntity{
     private String Time;
     private String Monday;
     private String Tuesday;

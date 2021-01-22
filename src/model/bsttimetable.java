@@ -1,7 +1,6 @@
-package entity;
+package model;
 
-public class ettimetable {
-
+public class bsttimetable implements SuperEntity{
     private String Time;
     private String Monday;
     private String Tuesday;
@@ -9,10 +8,10 @@ public class ettimetable {
     private String Thursday;
     private String Friday;
 
-    public ettimetable() {
+    public bsttimetable() {
     }
 
-    public ettimetable(String time, String monday, String tuesday, String wednesday, String thursday, String friday) {
+    public bsttimetable(String time, String monday, String tuesday, String wednesday, String thursday, String friday) {
         this.Time = time;
         this.Monday = monday;
         this.Tuesday = tuesday;
@@ -71,7 +70,7 @@ public class ettimetable {
 
     @Override
     public String toString() {
-        return "ettimetable{" +
+        return "bsttimetable{" +
                 "Time='" + Time + '\'' +
                 ", Monday='" + Monday + '\'' +
                 ", Tuesday='" + Tuesday + '\'' +
@@ -81,5 +80,4 @@ public class ettimetable {
                 '}';
     }
 }
-
 

@@ -1,8 +1,8 @@
-package entity;
+package model;
 
 import java.sql.Date;
 
-public class technical_officer {
+public class technical_officer implements SuperEntity{
     private String to_id;
     private String f_name;
     private String l_name;

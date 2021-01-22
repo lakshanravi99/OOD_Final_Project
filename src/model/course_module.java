@@ -1,6 +1,6 @@
-package entity;
+package model;
 
-public class course_module {
+public class course_module implements SuperEntity{
     private String course_id;
     private String name;
     private String theory;

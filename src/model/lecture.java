@@ -1,8 +1,8 @@
-package entity;
+package model;
 
 import java.sql.Date;
 
-public class lecture {
+public class lecture implements SuperEntity{
     private String lec_id;
     private String username;
     private String f_name;

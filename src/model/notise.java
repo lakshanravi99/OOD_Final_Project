@@ -1,8 +1,8 @@
-package entity;
+package model;
 
 import java.sql.Date;
 
-public class notise {
+public class notise implements SuperEntity{
     private int notise_id;
     private Date notise_date;
     private String notise_description;

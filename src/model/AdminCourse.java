@@ -1,13 +1,13 @@
-package entity;
+package model;
 
-public class admin_course {
+public class AdminCourse implements SuperEntity{
     private String admin_id;
     private String course_id;
 
-    public admin_course() {
+    public AdminCourse() {
     }
 
-    public admin_course(String admin_id, String course_id) {
+    public AdminCourse(String admin_id, String course_id) {
         this.setAdmin_id(admin_id);
         this.setCourse_id(course_id);
     }

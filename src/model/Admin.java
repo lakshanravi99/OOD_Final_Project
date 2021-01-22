@@ -1,18 +1,18 @@
-package entity;
+package model;
 
 import java.sql.Date;
 
-public class admin {
+public class Admin implements SuperEntity{
     private String admin_id;
     private String admin_nic;
     private String admin_name;
     private Date admin_dob;
     private String admin_gender;
 
-    public admin() {
+    public Admin() {
     }
 
-    public admin(String admin_id, String admin_nic, String admin_name, Date admin_dob, String admin_gender) {
+    public Admin(String admin_id, String admin_nic, String admin_name, Date admin_dob, String admin_gender) {
         this.setAdmin_id(admin_id);
         this.setAdmin_nic(admin_nic);
         this.setAdmin_name(admin_name);

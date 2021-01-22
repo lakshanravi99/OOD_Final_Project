@@ -1,8 +1,8 @@
-package entity;
+package model;
 
 import java.sql.Date;
 
-public class medical {
+public class medical implements SuperEntity{
     private String ref_no;
     private String course_id;
     private Date submit_date;

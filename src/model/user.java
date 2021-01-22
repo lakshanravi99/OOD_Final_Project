@@ -1,6 +1,6 @@
-package entity;
+package model;
 
-public class user {
+public class user implements SuperEntity{
     private String id;
     private String username;
     private String password;
