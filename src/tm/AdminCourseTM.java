@@ -5,10 +5,7 @@
  */
 package tm;
 
-/**
- *
- * @author ACER
- */
+
 public class AdminCourseTM {
     
     private String id;
