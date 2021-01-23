@@ -1,14 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="NEW.controller.MainFormController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="484.0" prefWidth="869.0" style="-fx-background-color: white; -fx-background-radius: 15;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="484.0" prefWidth="869.0" style="-fx-background-color: #1e88e5;">
+         <children>
+            <Pane layoutX="-20.0" layoutY="94.0" prefHeight="301.0" prefWidth="76.0" style="-fx-background-color: #3722f6; -fx-background-radius: 30;">
+               <children>
+                  <Pane layoutX="23.0" layoutY="38.0" prefHeight="47.0" prefWidth="47.0" style="-fx-background-color: #defabb; -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="53.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/close.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="24.0" layoutY="98.0" prefHeight="47.0" prefWidth="47.0" style="-fx-background-color: #defabb; -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="53.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/close.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="24.0" layoutY="159.0" prefHeight="47.0" prefWidth="47.0" style="-fx-background-color: #defabb; -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="53.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/close.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="24.0" layoutY="221.0" prefHeight="47.0" prefWidth="47.0" style="-fx-background-color: #defabb; -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fitHeight="53.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/close.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="838.0" layoutY="-3.0" prefHeight="33.0" prefWidth="33.0">
+               <children>
+                  <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="-2.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/minimize.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="798.0" prefHeight="33.0" prefWidth="33.0">
+               <children>
+                  <ImageView fitHeight="33.0" fitWidth="54.0" layoutX="1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/minimize.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
 </AnchorPane>
